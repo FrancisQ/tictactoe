@@ -12,6 +12,27 @@
 		B7D1D3F71DCA92A8004F2A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D1D3F51DCA92A8004F2A26 /* Main.storyboard */; };
 		B7D1D3F91DCA92A8004F2A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D1D3F81DCA92A8004F2A26 /* Assets.xcassets */; };
 		B7D1D3FC1DCA92A8004F2A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D1D3FA1DCA92A8004F2A26 /* LaunchScreen.storyboard */; };
+		B7D1D4121DCAAB1B004F2A26 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1D4111DCAAB1B004F2A26 /* Game.swift */; };
+		B7DE70261DD137AC004FA13B /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE70231DD137AC004FA13B /* board.png */; };
+		B7DE70271DD137AC004FA13B /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE70241DD137AC004FA13B /* o.png */; };
+		B7DE70281DD137AC004FA13B /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE70251DD137AC004FA13B /* x.png */; };
+		B7E680AA1DD55D0E0025AF12 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680991DD55D0E0025AF12 /* Icon-App-20x20@1x.png */; };
+		B7E680AB1DD55D0E0025AF12 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809A1DD55D0E0025AF12 /* Icon-App-20x20@2x.png */; };
+		B7E680AC1DD55D0E0025AF12 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809B1DD55D0E0025AF12 /* Icon-App-20x20@3x.png */; };
+		B7E680AD1DD55D0E0025AF12 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809C1DD55D0E0025AF12 /* Icon-App-29x29@1x.png */; };
+		B7E680AE1DD55D0E0025AF12 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809D1DD55D0E0025AF12 /* Icon-App-29x29@2x.png */; };
+		B7E680AF1DD55D0E0025AF12 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809E1DD55D0E0025AF12 /* Icon-App-29x29@3x.png */; };
+		B7E680B01DD55D0E0025AF12 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6809F1DD55D0E0025AF12 /* Icon-App-40x40@1x.png */; };
+		B7E680B11DD55D0E0025AF12 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A01DD55D0E0025AF12 /* Icon-App-40x40@2x.png */; };
+		B7E680B21DD55D0E0025AF12 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A11DD55D0E0025AF12 /* Icon-App-40x40@3x.png */; };
+		B7E680B31DD55D0E0025AF12 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A21DD55D0E0025AF12 /* Icon-App-57x57@1x.png */; };
+		B7E680B41DD55D0E0025AF12 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A31DD55D0E0025AF12 /* Icon-App-60x60@1x.png */; };
+		B7E680B51DD55D0E0025AF12 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A41DD55D0E0025AF12 /* Icon-App-60x60@2x.png */; };
+		B7E680B61DD55D0E0025AF12 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A51DD55D0E0025AF12 /* Icon-App-60x60@3x.png */; };
+		B7E680B71DD55D0E0025AF12 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A61DD55D0E0025AF12 /* Icon-App-76x76@1x.png */; };
+		B7E680B81DD55D0E0025AF12 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A71DD55D0E0025AF12 /* Icon-App-76x76@2x.png */; };
+		B7E680B91DD55D0E0025AF12 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A81DD55D0E0025AF12 /* Icon-App-76x76@3x.png */; };
+		B7E680BA1DD55D0E0025AF12 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E680A91DD55D0E0025AF12 /* Icon-App-83.5x83.5@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +43,27 @@
 		B7D1D3F81DCA92A8004F2A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D1D3FB1DCA92A8004F2A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D1D3FD1DCA92A8004F2A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D1D4111DCAAB1B004F2A26 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B7DE70231DD137AC004FA13B /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		B7DE70241DD137AC004FA13B /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		B7DE70251DD137AC004FA13B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		B7E680991DD55D0E0025AF12 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		B7E6809A1DD55D0E0025AF12 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		B7E6809B1DD55D0E0025AF12 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		B7E6809C1DD55D0E0025AF12 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		B7E6809D1DD55D0E0025AF12 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		B7E6809E1DD55D0E0025AF12 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		B7E6809F1DD55D0E0025AF12 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		B7E680A01DD55D0E0025AF12 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		B7E680A11DD55D0E0025AF12 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		B7E680A21DD55D0E0025AF12 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		B7E680A31DD55D0E0025AF12 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		B7E680A41DD55D0E0025AF12 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		B7E680A51DD55D0E0025AF12 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		B7E680A61DD55D0E0025AF12 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		B7E680A71DD55D0E0025AF12 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		B7E680A81DD55D0E0025AF12 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		B7E680A91DD55D0E0025AF12 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +96,43 @@
 		B7D1D3F01DCA92A8004F2A26 /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
+				B7D1D40A1DCAA359004F2A26 /* Images */,
 				B7D1D3F11DCA92A8004F2A26 /* AppDelegate.swift */,
 				B7D1D3F31DCA92A8004F2A26 /* ViewController.swift */,
 				B7D1D3F51DCA92A8004F2A26 /* Main.storyboard */,
 				B7D1D3F81DCA92A8004F2A26 /* Assets.xcassets */,
 				B7D1D3FA1DCA92A8004F2A26 /* LaunchScreen.storyboard */,
 				B7D1D3FD1DCA92A8004F2A26 /* Info.plist */,
+				B7D1D4111DCAAB1B004F2A26 /* Game.swift */,
 			);
 			path = tictactoe;
+			sourceTree = "<group>";
+		};
+		B7D1D40A1DCAA359004F2A26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B7E680991DD55D0E0025AF12 /* Icon-App-20x20@1x.png */,
+				B7E6809A1DD55D0E0025AF12 /* Icon-App-20x20@2x.png */,
+				B7E6809B1DD55D0E0025AF12 /* Icon-App-20x20@3x.png */,
+				B7E6809C1DD55D0E0025AF12 /* Icon-App-29x29@1x.png */,
+				B7E6809D1DD55D0E0025AF12 /* Icon-App-29x29@2x.png */,
+				B7E6809E1DD55D0E0025AF12 /* Icon-App-29x29@3x.png */,
+				B7E6809F1DD55D0E0025AF12 /* Icon-App-40x40@1x.png */,
+				B7E680A01DD55D0E0025AF12 /* Icon-App-40x40@2x.png */,
+				B7E680A11DD55D0E0025AF12 /* Icon-App-40x40@3x.png */,
+				B7E680A21DD55D0E0025AF12 /* Icon-App-57x57@1x.png */,
+				B7E680A31DD55D0E0025AF12 /* Icon-App-60x60@1x.png */,
+				B7E680A41DD55D0E0025AF12 /* Icon-App-60x60@2x.png */,
+				B7E680A51DD55D0E0025AF12 /* Icon-App-60x60@3x.png */,
+				B7E680A61DD55D0E0025AF12 /* Icon-App-76x76@1x.png */,
+				B7E680A71DD55D0E0025AF12 /* Icon-App-76x76@2x.png */,
+				B7E680A81DD55D0E0025AF12 /* Icon-App-76x76@3x.png */,
+				B7E680A91DD55D0E0025AF12 /* Icon-App-83.5x83.5@2x.png */,
+				B7DE70231DD137AC004FA13B /* board.png */,
+				B7DE70241DD137AC004FA13B /* o.png */,
+				B7DE70251DD137AC004FA13B /* x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					B7D1D3ED1DCA92A8004F2A26 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G9M8ANKNN7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +195,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E680BA1DD55D0E0025AF12 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				B7E680B51DD55D0E0025AF12 /* Icon-App-60x60@2x.png in Resources */,
+				B7E680B21DD55D0E0025AF12 /* Icon-App-40x40@3x.png in Resources */,
+				B7E680B41DD55D0E0025AF12 /* Icon-App-60x60@1x.png in Resources */,
+				B7E680AA1DD55D0E0025AF12 /* Icon-App-20x20@1x.png in Resources */,
+				B7DE70281DD137AC004FA13B /* x.png in Resources */,
+				B7E680AB1DD55D0E0025AF12 /* Icon-App-20x20@2x.png in Resources */,
+				B7DE70271DD137AC004FA13B /* o.png in Resources */,
+				B7E680B71DD55D0E0025AF12 /* Icon-App-76x76@1x.png in Resources */,
+				B7E680B31DD55D0E0025AF12 /* Icon-App-57x57@1x.png in Resources */,
+				B7E680B61DD55D0E0025AF12 /* Icon-App-60x60@3x.png in Resources */,
+				B7DE70261DD137AC004FA13B /* board.png in Resources */,
+				B7E680AF1DD55D0E0025AF12 /* Icon-App-29x29@3x.png in Resources */,
+				B7E680AE1DD55D0E0025AF12 /* Icon-App-29x29@2x.png in Resources */,
+				B7E680B01DD55D0E0025AF12 /* Icon-App-40x40@1x.png in Resources */,
+				B7E680AD1DD55D0E0025AF12 /* Icon-App-29x29@1x.png in Resources */,
+				B7E680B91DD55D0E0025AF12 /* Icon-App-76x76@3x.png in Resources */,
+				B7E680AC1DD55D0E0025AF12 /* Icon-App-20x20@3x.png in Resources */,
+				B7E680B11DD55D0E0025AF12 /* Icon-App-40x40@2x.png in Resources */,
+				B7E680B81DD55D0E0025AF12 /* Icon-App-76x76@2x.png in Resources */,
 				B7D1D3FC1DCA92A8004F2A26 /* LaunchScreen.storyboard in Resources */,
 				B7D1D3F91DCA92A8004F2A26 /* Assets.xcassets in Resources */,
 				B7D1D3F71DCA92A8004F2A26 /* Main.storyboard in Resources */,
@@ -137,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7D1D3F41DCA92A8004F2A26 /* ViewController.swift in Sources */,
+				B7D1D4121DCAAB1B004F2A26 /* Game.swift in Sources */,
 				B7D1D3F21DCA92A8004F2A26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = G9M8ANKNN7;
 				INFOPLIST_FILE = tictactoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bcit.tictactoe;
+				PRODUCT_BUNDLE_IDENTIFIER = comp.blah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = G9M8ANKNN7;
 				INFOPLIST_FILE = tictactoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bcit.tictactoe;
+				PRODUCT_BUNDLE_IDENTIFIER = comp.blah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +398,7 @@
 				B7D1D4021DCA92A8004F2A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
